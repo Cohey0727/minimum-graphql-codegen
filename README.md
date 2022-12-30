@@ -2,7 +2,7 @@
 
 ## 概要
 
-`GraphQL`から`TypeScript`のソースコードを自動生成するための最小構成と、ゼロからこのリポジトリ完成までの手順を紹介する。
+`GraphQL`から`TypeScript`のソースコードを自動生成するための最小構成と、ゼロからこのリポジトリの構成を再現するまでの処理を紹介する。
 
 ## ファイル構成
 
@@ -10,7 +10,7 @@
 .
 ├── README.md
 ├── codegen.ts # コード生成設定ファイル
-├── generated
+├── generated # 生成されたコードが格納されるファイル
 ├── graphql.schema.json
 ├── operations # GraphQLのクエリ操作ファイル
 ├── package-lock.json
