@@ -1,0 +1,6 @@
+query ListNotes {
+  listNotes {
+    id
+    content
+  }
+}
